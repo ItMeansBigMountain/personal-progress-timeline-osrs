@@ -1,13 +1,16 @@
 {
-  "name": "PersonalProgressTimeline",
+  "name": "Personal Progress Timeline",
   "version": "1.0.0",
-  "description": "tracks and displays your personal milestone history",
-  "author": "Affan Fareed",
+  "description": "Tracks personal level-up, quest, and combat-achievement milestones in a lightweight RuneLite session timeline.",
+  "author": "Oyama",
   "tags": [
     "osrs",
     "runelite",
-    "plugin",
-    "personalprogresstimeline"
+    "progress",
+    "timeline",
+    "milestones",
+    "levels",
+    "quests"
   ],
   "min_engine_version": "3.0.0"
 }
