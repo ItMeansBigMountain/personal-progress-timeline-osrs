@@ -1,0 +1,13 @@
+{
+  "name": "PersonalProgressTimeline",
+  "version": "1.0.0",
+  "description": "tracks and displays your personal milestone history",
+  "author": "Affan Fareed",
+  "tags": [
+    "osrs",
+    "runelite",
+    "plugin",
+    "personalprogresstimeline"
+  ],
+  "min_engine_version": "3.0.0"
+}
