@@ -75,3 +75,15 @@ Manual smoke test checklist:
 ## Plugin Hub prep notes
 
 Before submitting to RuneLite Plugin Hub, perform the manual smoke test above in a live RuneLite client and add screenshots or a short GIF if maintainers request visual proof. This plugin does not depend on Wise Old Man, TempleOSRS, or any other external service, so there are no API keys or rate-limit concerns to document.
+
+## Product direction update
+
+Personal Progress Timeline should become a persistent account history side panel. Once installed it starts tracking forward from that point, and when the player opens collection log/achievement interfaces it should backfill known owned items/milestones from RuneLite-visible state.
+
+Target UX:
+
+- Scrollable side panel timeline with timestamps for levels, quests, combat achievements, collection-log items, pets, notable drops, boss KC milestones, clue milestones, and other account milestones.
+- Persist data locally so milestones survive client restarts.
+- On opening the collection log, update the timeline with items already owned; mark these as backfilled/observed if exact acquisition time is unknown.
+- Connect to public tracking websites/APIs such as Wise Old Man and TempleOSRS for data robustness, timestamps, recent collections, gains, and cross-checking.
+- Keep confidence/source metadata per timeline item and avoid claiming exact timestamps when an API only proves the item existed by a snapshot time.
